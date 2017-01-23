@@ -1,3 +1,13 @@
 h1 {
+  text-align: center;
   color: red;
+}
+
+.col-sm-4 {
+  text-align: center;
+  color: red;
+}
+
+footer {
+  text-align: center;
 }

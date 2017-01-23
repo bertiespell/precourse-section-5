@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  $("h1").click(function(){
-    console.log("clicked");
+  $("#correct").click(function(){
+    console.log("correct!");
+  });
+  $("#wrong").click(function(){
+    console.log("wrong!");
   });
 });
