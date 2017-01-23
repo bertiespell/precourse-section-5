@@ -1,5 +1,13 @@
+body {
+
+}
+
 .jumbotron h1 {
   text-align: center;
+}
+
+.row {
+  padding: 20px;
 }
 
 .row h1 {
@@ -10,6 +18,9 @@
 .col-sm-4 {
   text-align: center;
   color: purple;
+  border-style: solid;
+  border-color: white;
+
 }
 
 footer {
@@ -18,9 +29,19 @@ footer {
 }
 
 .correctAnswer {
-  color: green;
+  color: white;
+  border-style: solid;
+  border-color: green;
+  background-color: green;
 }
 
 .wrongAnswer {
+  color: white;
+  border-style: solid;
+  border-color: red;
+  background-color: red;
+}
+
+#sidebar {
   color: red;
 }
