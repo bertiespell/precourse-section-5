@@ -1,13 +1,26 @@
-h1 {
+.jumbotron h1 {
   text-align: center;
-  color: red;
+}
+
+.row h1 {
+  text-align: center;
+  color: blue;
 }
 
 .col-sm-4 {
   text-align: center;
-  color: red;
+  color: purple;
 }
 
 footer {
   text-align: center;
+  padding: 20px;
+}
+
+.correctAnswer {
+  color: green;
+}
+
+.wrongAnswer {
+  color: red;
 }
