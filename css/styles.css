@@ -1,9 +1,18 @@
 body {
+}
 
+.jumbotron {
+  background-image: url("http://img10.deviantart.net/0acd/i/2015/122/6/5/paint_palette_by_vintagefan-d2lxk6b.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 2px 2px #ffffff;
+  text-align: center;
 }
 
 .jumbotron h1 {
-  text-align: center;
+  font-size: bold;
+  font-size: 60px;
 }
 
 .row {
@@ -11,21 +20,31 @@ body {
 }
 
 .row h1 {
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  word-spacing: 15px;
   text-align: center;
   color: blue;
+  background-color: yellow;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .col-sm-4 {
   text-align: center;
+  font-size: 45px;
+  font-family: 'Amatic SC', cursive;
   color: purple;
-  border-style: solid;
-  border-color: white;
-
+  padding: 10px;
+  border-radius: 20px;
 }
 
 footer {
+  align-self: center;
   text-align: center;
   padding: 20px;
+  font-family: 'Amatic SC', cursive;
 }
 
 .correctAnswer {
@@ -33,6 +52,8 @@ footer {
   border-style: solid;
   border-color: green;
   background-color: green;
+  border-radius: 20px;
+  padding: 10px
 }
 
 .wrongAnswer {
@@ -40,8 +61,21 @@ footer {
   border-style: solid;
   border-color: red;
   background-color: red;
+  border-radius: 20px;
+  padding: 10px
 }
 
-#sidebar {
-  color: red;
+#scrollBar {
+    position: fixed;
+    top: 100px;
+    }
+
+#score {
+  font-size: 30px;
+}
+
+
+#playAgain {
+  font-size: 50px;
+  background-color: #FF8C69;
 }
