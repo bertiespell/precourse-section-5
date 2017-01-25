@@ -67,11 +67,19 @@ footer {
 
 #scrollBar {
     position: fixed;
-    top: 100px;
+    left: 150px;
+    top: 210px;
+    width: 60px;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive, bold;
+    text-shadow: 2px 2px #ffffff;
+    background-color: #FF8C69;
     }
 
 #score {
-  font-size: 30px;
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive, bold;
+  text-shadow: 2px 2px #ffffff;
 }
 
 
